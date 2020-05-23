@@ -5,29 +5,31 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Deepthi's profile">
+  <meta name="author" content="Gaurav Madarkal">
 
   <title>Deepthi's Profile</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/cover.css" rel="stylesheet">
+  <link href="./css/cover.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/D-anim.css"/>
 
 </head>
 
 <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div id = "animation" class="shapeshifter play" style="background-image: url(css/D-img.svg)"></div>
+    <div id = "mainBody" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand"><a href="#">D.</a></h3>
           <nav class="nav nav-masthead justify-content-center" id="topnav">
             <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="pages/projects.html">Projects</a>
             <a class="nav-link" href="#">Contact</a>
             <a href="javascript:void(0);" class="burger" onclick="responsiveBurgerIcon()">
                 <i class="fa fa-bars"></i>
@@ -56,25 +58,9 @@
         </div>
       </footer>
     </div>
-    <script>
-        function responsiveBurgerIcon() {
-            var x = document.getElementById("topnav");
-            if (x.className === "nav nav-masthead justify-content-center") {
-                x.className += " responsive";
-            } else {
-                x.className = "nav nav-masthead justify-content-center";
-            }
-        }
-    </script>
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
+    
+  <!-- custom JavaScript -->
+  <script src="js/index.js"></script>
 
 </body>
 

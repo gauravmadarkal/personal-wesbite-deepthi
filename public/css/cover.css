@@ -8,9 +8,11 @@
   }
 /* Links */
 a,
-a:focus,
+a:focus{
+    color: var(--main-element-color) !important;
+}
 a:hover {
-  color: var(--main-element-color);
+  color: var(--main-theme-color) !important;
 }
 
 /* Custom default button */
@@ -30,6 +32,9 @@ a:hover {
 h1.name{
     color: var(--main-theme-color);
     font-size:5vw;
+}
+a.learnmore-button{
+    color: var(--main-bg-color) !important;
 }
 
 a.learnmore-button:hover{
@@ -58,6 +63,8 @@ body {
 
 .cover-container {
   max-width: 42em;
+  /* display: none !important; */
+  opacity: 0;
 }
 
 h1.cover-heading{
